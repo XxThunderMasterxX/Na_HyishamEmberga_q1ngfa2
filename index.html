@@ -1,46 +1,58 @@
-!<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
+        <style>
+            *{
+                padding: 0px;
+                margin: 0px;
+            }
+            #navbar{
+
+                border: 1px solid black;
+                margin: 5px;
+                padding: 15px;
+                text-align: center;
+                background-color:cadetblue;
+                
+            }
+
+            #links{
+
+                display: inline;
+
+            }
+          
+            #navbar #links a{
+                text-decoration: none;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                padding: 5px;
+                margin: 5px;
+                border: 1px solid black;
+                font-weight: 600;
+                opacity: .500;
+                transition: 0.3s;
+
+                }
+                #navbar #links a:hover{opacity: 1; transition: 0.4s;}
+                #yt{background-color: red; color: black;}
+                #dc{background-color: grey; color: black;}
+                #fb{background-color: blue;color: white;}
+                #git{background-color: white; color: black;}
+                #twt{background-color: aqua; color: black;}
+                .rounded{border-radius: 5px;}
+
+                
+               
+        </style>
         <title>Document</title>
         <body>
-            <h1>Na</h1>
-            <h2>Na</h2>
-            <h3>Na</h3>
-            <h4>Na</h4>
-            <H5>Na</H5>
-            <h6>Na</h6>
-            <p title="Secret sodium">Sodium is amazing</p>
-            <u>sodium is amazingly underlined</u>
-            <i>sodium is amazingly italicized</i>
-            <del>sodium is amazingly strikethrough</del>
-            <strong>Sodium is amazingly emphasized</strong>
-            <b>sodium is amazingly bolded</b>
-            <hr>
-            <sub>sodium subscript</sub>
-            normal script
-            <sup>sodium superscript</sup>
-
-            <ol>
-                <li>animals
-                        <ul>
-                            <li>reptiles</li>
-                           <li> avians</li>
-                            <li>amphibians</li>
-                           <li> mammals</li>
-                        </ul>
-                </li>
-
-                    
-                     <li>insects</li>
-                     <li>protozoans        
-                     
-            </ol>
-
-            <img src="download.png" alt=":D" width="300" length="200">
-            <br>
-            <img src="downloadbroken.png" alt=":D">
-            <br>
-            <a href="page2.html">A link to page 2</a>
+         <div id="navbar" class="rounded">
+            <div id="links"><a id="yt" href="https://www.youtube.com/">Youtube</a></div>
+            <div id="links"><a id="dc" href="https://discord.com/login">Discord</a></div>
+            <div id="links"><a id="fb" href="https://web.facebook.com/?_rdc=1&_rdr">Facebook</a></div>
+            <div id="links"><a id="git" href="https://github.com/dashboard">Github</a></div>
+            <div id="links"><a id="twt" href="https://twitter.com/home">Twitter</a></div>
+         </div>
         </body>
     </head>
 </html>
