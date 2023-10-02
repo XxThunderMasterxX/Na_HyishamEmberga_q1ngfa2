@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#navbar{
+
+    border: 1px solid black;
+    margin: 5px;
+    padding: 15px;
+    text-align: center;
+    background-color:cadetblue;
+    
+}
+
+#links{
+
+    display: inline;
+
+}
+
+#navbar #links a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    font-weight: 600;
+    opacity: .500;
+    transition: 0.3s;
+
+    }
+    #navbar #links a:hover{opacity: 1; transition: 0.4s;}
+    #yt{background-color: red; color: black;}
+    #dc{background-color: grey; color: black;}
+    #fb{background-color: blue;color: white;}
+    #git{background-color: white; color: black;}
+    #twt{background-color: aqua; color: black;}
+    .rounded{border-radius: 5px;}
+
+    *{
+        padding: 0px;
+        margin: 0px;
+    
+    }
+    
+    .menubar
+    {
+    
+        height: 50px;
+        border: 1px solid black;
+    
+    }
+
+
+    .banner
+    {
+        padding: 30px;    
+        background-image:  url(coffee-1-1-1664301131.jpg);
+        background-repeat: no-repeat;
+        background-color: antiquewhite;
+        background-size: cover;
+        background-position: center;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .banner h2{
+
+        color: #89909F;
+        text-shadow: 1px black;
+        font-family: 'Young Serif', serif;
+    }
+
+    .banner span{
+
+        color: #090A0B
+    }      
+
+    .banner p{
+
+        color: #DFD9E2;
+        margin-bottom: 20px;
+    }
+
+    .banner a{
+
+        padding: 10px;
+        color: #C3ACCE;
+        text-decoration: none;
+       
+        background-color: #538083;
+        font-family: 'Dela Gothic One', cursive;
+font-family: 'Young Serif', serif;
+        text-transform: uppercase;
+
+    }
